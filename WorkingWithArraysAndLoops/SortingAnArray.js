@@ -14,3 +14,10 @@ console.log(numArray.sort(compareNumbers)); //2,4,5,13,31
 
 var strArr = ["4", "13", "2", "31", "5"];
 console.log(strArr.sort(compareNumbers)); //2,4,5,13,31 (number conversion is automatic)
+
+var numArr = [1, 2, 3, 4, 5];
+console.log(numArr.reverse()); //2,3,1,4,5
+
+var numArr1 = [1, 2, 3, 4, 5];
+numArr1.sort();
+console.log(numArr1.reverse()); //5,4,3,2,1
